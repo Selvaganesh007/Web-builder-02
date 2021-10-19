@@ -124,6 +124,6 @@ body{
         margin: auto;
     }
     #contact input, textarea{
-        width: 95%;
+        width: 100%;
     }
 }
