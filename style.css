@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.yellow{
+    color: rgb(255, 208, 0);
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.301);
+}
+
+.navbar ul li:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: rgb(255, 208, 0);
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+}
+#home{
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home--content--h2{
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    font-weight: 600;
+}
+.home--content--blog{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.home--content{
+    width: 50%;
+    margin: auto;
+}
+.about--content{
+    text-align: left;
+}
+.about--content input{
+    background-color: rgb(255,194,13);
+    color: brown;
+    border-radius: 5px;
+}
+#sub{
+    background-color: rgb(255,194,13);
+}
+#sub input{
+    border: 1px solid rgb(185, 182, 3);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#team{
+    background-color: rgb(49, 49, 49);
+}
+#team .card{
+    border: none;
+    background-color: transparent;
+} 
+#team .card img{
+    border-radius: 50%;
+    border: 7px solid rgb(255,194,13);
+}
+.port--card--discription{
+    background-color: rgba(0, 0, 0, 0.705) !important;
+    margin-top: 70%;
+    text-align: left;
+}
+#port .card{
+    border: none;
+}
+#contact{
+    background-image: url('10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#contact input, textarea{
+    width: 60%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.footer--navbar ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+.footer--navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: transform .2s;
+    font-size: 15px;
+}
+.footer--navbar ul li a:hover{
+    border-bottom: 2px solid black;
+    color: gold;
+    cursor: pointer;
+    transform: scale(5);
+}
+@media only screen and (max-width: 900px){
+    .home--content{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    .home--content{
+        width: 90%;
+        margin: auto;
+    }
+    #contact input, textarea{
+        width: 90%;
+    }
+}
